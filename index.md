@@ -19,12 +19,12 @@ It is possible to identify two main groups in the FSL literature: (i) gradient-b
    1. Chelsea Finn, Pieter Abbeel, and Sergey Levine. <a href="http://proceedings.mlr.press/v70/finn17a.html" title="link to footnote">Model-agnostic meta-learning for fast adaptation of deep networks</a>. volume 70 of Proceedings of Machine Learning Research, pages 1126–1135, International Convention Centre, Sydney, Australia, 06–11 Aug 2017. PMLR.
       <a href="#footnote-1-ref" title="return to text">&#8617;</a> 
 </p>
-<!-- Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
 <p id="footnote-2">
    2. Alex Nichol, Joshua Achiam, and John Schulman. <a href="https://arxiv.org/abs/1803.02999" title="link to footnote">On first-order meta-learning algorithms</a>, 2018.
       <a href="#footnote-2-ref" title="return to text">&#8617;</a> 
 </p>
+
 <!-- Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
  , .
 
