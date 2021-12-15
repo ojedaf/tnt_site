@@ -13,6 +13,12 @@ Current approaches in few-shot video classification mostly focus on effectively 
 
 It is possible to identify two main groups in the FSL literature: (i) gradient-based methods and (ii) metric learning based methods. Gradient-based methods focus on learning a good parameter initialization that facilitates model adaptation by few-shot fine-tuning \cite{pmlr-v70-finn17a,nichol2018firstorder,rajeswaran2019meta}. On the other hand, metric-based methods aim to learn or design better metrics for determining similarity of input samples in the semantic embedding space~\cite{koch2015siamese, qi2018low, protoNet, 8578229, vinyals2016matching}. More recently, affine conditional layers are added to the feature extraction backbone in~\cite{BateniSimpleCNAPS,cnapsRequeima} as extension to the conditional neural process framework~\cite{pmlr-v80-garnelo18a} with the goal of effective task-adaptation. In this work, we extend this framework~\cite{pmlr-v80-garnelo18a} differently from~\cite{BateniSimpleCNAPS,cnapsRequeima} by adapting the feature extractor and updating the class representations based on the support textual descriptions and query instances. Our goal is to influence the visual backbone with the structured knowledge captured by pre-trained language models.
 
+## References
+
+<p id="footnote-1">
+   1. Here is my first footnote.
+      <a href="#footnote-1-ref" title="return to text">&#8617;</a> 
+</p>
 <!-- Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
 ```markdown
