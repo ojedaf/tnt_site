@@ -1,4 +1,3 @@
-# TNT: Text-Conditioned Network with Transductive Inference for Few-Shot Video Classification
 
 <!-- You can use the [editor on GitHub](https://github.com/ojedaf/tnt_site/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
