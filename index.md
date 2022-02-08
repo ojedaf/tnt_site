@@ -38,9 +38,18 @@ It is possible to identify two main groups in the FSL literature: (i) gradient-b
 </p>
 
 <p id="footnote-5">
-   5. J. Ji, S. Buch, JC. Niebles, and A. Soto. <a href="https://openaccess.thecvf.com/content_ECCV_2018/papers/Jingwei_Ji_End-to-End_Joint_Semantic_ECCV_2018_paper.pdf" title="link to footnote">End-to-end joint semantic segmentation of
-actors and actions in video</a>. In Eur. Conf. Comput. Vis., 2018.
+   5. J. Ji, S. Buch, JC. Niebles, and A. Soto. <a href="https://openaccess.thecvf.com/content_ECCV_2018/papers/Jingwei_Ji_End-to-End_Joint_Semantic_ECCV_2018_paper.pdf" title="link to footnote">End-to-end joint semantic segmentation of actors and actions in video</a>. In Eur. Conf. Comput. Vis., 2018.
       <a href="#footnote-5-ref" title="return to text">&#8617;</a> 
+</p>
+
+<p id="footnote-6">
+   6. Ji Lin, Chuang Gan and Song Han. <a href="https://github.com/mit-han-lab/temporal-shift-module" title="link to footnote">Tsm: Temporal shift module for efficient video understanding</a>. In Int. Conf. Comput. Vis., October 2019.
+      <a href="#footnote-6-ref" title="return to text">&#8617;</a> 
+</p>
+
+<p id="footnote-7">
+<!--    7. Limin Wang, Yuanjun Xiong, Zhe Wang, Yu Qiao, Dahua Lin, Xiaoou Tang, and Luc Van Gool. <a href="https://arxiv.org/abs/1705.02953" title="link to footnote">Temporal segment networks for action recognition in videos</a>. IEEE Trans. Pattern Anal. Mach. Intell., 41(11):2740–2755, 2019.
+      <a href="#footnote-7-ref" title="return to text">&#8617;</a> 
 </p>
 
  
