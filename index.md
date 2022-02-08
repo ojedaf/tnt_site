@@ -52,6 +52,20 @@ It is possible to identify two main groups in the FSL literature: (i) gradient-b
       <a href="#footnote-7-ref" title="return to text">&#8617;</a> 
 </p>
 
+<p id="footnote-8">
+   8. R. Girdhar, J. Carreira, C. Doersch, and A. Zisserman. <a href="https://openaccess.thecvf.com/content_CVPR_2019/papers/Girdhar_Video_Action_Transformer_Network_CVPR_2019_paper.pdf" title="link to footnote">Video action transformer network.</a>. IEEE Conf. Comput. Vis. Pattern Recog., 2019.
+      <a href="#footnote-8-ref" title="return to text">&#8617;</a> 
+</p>
+
+<p id="footnote-9">
+   9. Will Kay, João Carreira, Karen Simonyan, Brian Zhang, Chloe Hillier, Sudheendra Vijayanarasimhan, Fabio Viola, Tim Green, Trevor Back, Paul Natsev, Mustafa Suleyman, and Andrew Zisserman. <a href="https://arxiv.org/abs/1705.06950" title="link to footnote">The kinetics human action video dataset</a>. CoRR, abs/1705.06950, 2017.
+      <a href="#footnote-9-ref" title="return to text">&#8617;</a> 
+</p>
+
+<p id="footnote-10">
+   10. Yaqing Wang, Quanming Yao, James T. Kwok, and Lionel M. Ni. <a href="https://dl.acm.org/doi/10.1145/3386252" title="link to footnote">Generalizing from a few examples: A survey on few-shot learning</a>. ACM Comput. Surv., 53(3), June 2020. ISSN 0360-0300. doi: 10.1145/3386252.
+      <a href="#footnote-10-ref" title="return to text">&#8617;</a> 
+</p>
  
 
 <!-- Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
