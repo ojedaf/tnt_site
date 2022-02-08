@@ -66,7 +66,48 @@ It is possible to identify two main groups in the FSL literature: (i) gradient-b
    10. Yaqing Wang, Quanming Yao, James T. Kwok, and Lionel M. Ni. <a href="https://dl.acm.org/doi/10.1145/3386252" title="link to footnote">Generalizing from a few examples: A survey on few-shot learning</a>. ACM Comput. Surv., 53(3), June 2020. ISSN 0360-0300. doi: 10.1145/3386252.
       <a href="#footnote-10-ref" title="return to text">&#8617;</a> 
 </p>
- 
+
+<p id="footnote-11">
+   11. Gregory Koch. <a href="https://www.cs.cmu.edu/~rsalakhu/papers/oneshot1.pdf" title="link to footnote">Siamese neural networks for one-shot image recognition</a>. In Int. Conf. Machine learning, 2015.
+      <a href="#footnote-11-ref" title="return to text">&#8617;</a> 
+</p>
+
+<p id="footnote-12">
+   12. Hang Qi, Matthew Brown, and David G Lowe. <a href="https://arxiv.org/abs/1712.07136" title="link to footnote">Low-shot learning with imprinted weights</a>. In IEEE Conf. Comput. Vis. Pattern Recog., pages 5822–5830, 2018.
+      <a href="#footnote-12-ref" title="return to text">&#8617;</a> 
+</p>
+
+<p id="footnote-13">
+   13. Jake Snell, Kevin Swersky, and Richard Zemel. <a href="https://proceedings.neurips.cc/paper/2017/file/cb8da6767461f2812ae4290eac7cbc42-Paper.pdf" title="link to footnote">Prototypical networks for few-shot learning</a>. Adv. Neural Inform. Process. Syst., pages 4077–4087. Curran Associates, Inc., 2017.
+      <a href="#footnote-13-ref" title="return to text">&#8617;</a> 
+</p>
+
+<p id="footnote-14">
+   14. Flood Sung, Yongxin Yang, Li Zhang, Tao Xiang, Philip H. S. Torr, and Timothy M. Hospedales. <a href="https://arxiv.org/abs/1711.06025" title="link to footnote">Learning to compare: Relation network for few-shot learning</a>.  In IEEE Conf. Comput. Vis. Pattern Recog., pages 1199–1208, 2018. doi: 10.1109/CVPR.2018.00131.
+      <a href="#footnote-14-ref" title="return to text">&#8617;</a> 
+</p>
+
+<p id="footnote-15">
+   15. Oriol Vinyals, Charles Blundell, Timothy Lillicrap, Daan Wierstra, et al. <a href="https://arxiv.org/abs/1606.04080" title="link to footnote">Matching
+networks for one shot learning</a>. In Adv. Neural Inform. Process. Syst., pages 3630–3638, 2016.
+      <a href="#footnote-15-ref" title="return to text">&#8617;</a> 
+</p>
+
+
+<p id="footnote-16">
+   16. Peyman Bateni, Raghav Goyal, Vaden Masrani, Frank Wood, and Leonid Sigal. <a href="https://openaccess.thecvf.com/content_CVPR_2020/papers/Bateni_Improved_Few-Shot_Visual_Classification_CVPR_2020_paper.pdf" title="link to footnote">Improved few-shot visual classification</a>. In IEEE Conf. Comput. Vis. Pattern Recog., June 2020.
+      <a href="#footnote-16-ref" title="return to text">&#8617;</a> 
+</p>
+
+<p id="footnote-17">
+   17. James Requeima, Jonathan Gordon, John Bronskill, Sebastian Nowozin, and Richard E Turner. <a href="https://arxiv.org/abs/1906.07697" title="link to footnote">Fast and flexible multi-task classification using conditional neural adaptive processes.</a>.  In Adv. Neural Inform. Process. Syst., 2019.
+      <a href="#footnote-17-ref" title="return to text">&#8617;</a> 
+</p>
+
+<p id="footnote-18">
+   18. Marta Garnelo, Dan Rosenbaum, Christopher Maddison, Tiago Ramalho, David Saxton, Murray Shanahan, Yee Whye Teh, Danilo Rezende, and S. M. Ali Eslami. <a href="https://arxiv.org/abs/1807.01613" title="link to footnote">Conditional neural processes</a>. In Int. Conf. Machine learning, volume 80, pages 1704–1713. PMLR, 2018.
+      <a href="#footnote-19-ref" title="return to text">&#8617;</a> 
+</p>
 
 <!-- Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
  , .
