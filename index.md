@@ -37,6 +37,12 @@ It is possible to identify two main groups in the FSL literature: (i) gradient-b
       <a href="#footnote-4-ref" title="return to text">&#8617;</a> 
 </p>
 
+<p id="footnote-5">
+   5. J. Ji, S. Buch, JC. Niebles, and A. Soto. <a href="https://openaccess.thecvf.com/content_ECCV_2018/papers/Jingwei_Ji_End-to-End_Joint_Semantic_ECCV_2018_paper.pdf" title="link to footnote">End-to-end joint semantic segmentation of
+actors and actions in video</a>. In Eur. Conf. Comput. Vis., 2018.
+      <a href="#footnote-5-ref" title="return to text">&#8617;</a> 
+</p>
+
  
 
 <!-- Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
