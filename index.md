@@ -31,7 +31,7 @@ FSL aims to obtain a model that can generalize well to novel classes with few su
 
 ### TNT Model
 
-![Our FSL Model](/tnt_site/imgs/full_model_v.pdf)
+![Our FSL Model](/tnt_site/imgs/full_model_v.png)
 
 #### Task-Conditioned Video Encoder
 
