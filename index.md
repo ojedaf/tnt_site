@@ -105,7 +105,7 @@ FSL aims to obtain a model that can generalize well to novel classes with few su
           width: 800,
           chart: {
             title: 'Model Performance',
-            subtitle: 'Acc on four challenging video benchmark',
+            subtitle: 'Acc on four challenging video benchmark. EK: EK-92, SS: SS-100, UCF: MetaUCF-101, Kin: Kinetics-100',
           }
         };
 
