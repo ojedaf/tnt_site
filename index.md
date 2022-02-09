@@ -45,7 +45,7 @@ FSL aims to obtain a model that can generalize well to novel classes with few su
 
 ### Results
 
-<html>
+<!-- <html>
   <head>
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <script type="text/javascript">
@@ -77,11 +77,11 @@ FSL aims to obtain a model that can generalize well to novel classes with few su
   <body>
     <div id="columnchart_material" style="width: 800px; height: 500px;"></div>
   </body>
-</html>
+</html> -->
 
 
 
-<!-- <html>
+<html>
   <head>
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <script type="text/javascript">
@@ -114,7 +114,7 @@ FSL aims to obtain a model that can generalize well to novel classes with few su
     <div id="columnchart_material" style="width: 800px; height: 500px;"></div>
   </body>
 </html>
- -->
+
 
 
 <!-- <html>
