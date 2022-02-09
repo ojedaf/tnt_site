@@ -96,26 +96,22 @@ FSL aims to obtain a model that can generalize well to novel classes with few su
     function drawChart() {
 
       var data = new google.visualization.DataTable();
-      data.addColumn('number', 'Day');
-      data.addColumn('number', 'Guardians of the Galaxy');
-      data.addColumn('number', 'The Avengers');
-      data.addColumn('number', 'Transformers: Age of Extinction');
+      data.addColumn('number', 'Num unlabeled samples in query set');
+      data.addColumn('number', 'Transductive');
+      data.addColumn('number', 'Inductive');
 
       data.addRows([
-        [1,  37.8, 80.8, 41.8],
-        [2,  30.9, 69.5, 32.4],
-        [3,  25.4,   57, 25.7],
-        [4,  11.7, 18.8, 10.5],
-        [5,  11.9, 17.6, 10.4],
-        [6,   8.8, 13.6,  7.7],
-        [7,   7.6, 12.3,  9.6],
-        [8,  12.3, 29.2, 10.6],
-        [9,  16.9, 42.9, 14.8],
-        [10, 12.8, 30.9, 11.6],
-        [11,  5.3,  7.9,  4.7],
-        [12,  6.6,  8.4,  5.2],
-        [13,  4.8,  6.3,  3.6],
-        [14,  4.2,  6.2,  3.4]
+      [5, 53.15999984741211, 54.689998626708984],
+      [10, 55.13999938964844, 56.09000015258789],
+      [15, 57.439998626708984, 54.849998474121094],
+      [20, 58.358360290527344, 55.4354362487793],
+      [25, 58.939998626708984, 55.099998474121094],
+      [30, 60.18, 56.21],
+      [35, 59.588348388671875, 55.56224822998047],
+      [40, 58.6418571472168, 55.42253494262695],
+      [45, 59.20000076293945, 54.33000183105469],
+      [50, 59.4494514465332, 54.76476287841797],
+      [55, 59.47999954223633, 54.650001525878906]
       ]);
 
       var options = {
