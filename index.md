@@ -37,7 +37,11 @@ FSL aims to obtain a model that can generalize well to novel classes with few su
 
 #### Task Conditioner
 
+![Task Conditioner Module](/tnt_site/imgs/teaser_fig.png)
+
 #### Task-Conditioned Transductive Classifier
+
+![Task-Conditioned Transductive Classifier](/tnt_site/imgs/teaser_fig.png)
 
 ### Results
 
