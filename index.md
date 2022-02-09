@@ -82,7 +82,7 @@ FSL aims to obtain a model that can generalize well to novel classes with few su
 
 
 
-<html>
+<!-- <html>
 <head>
   <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <script type="text/javascript">
@@ -139,7 +139,7 @@ FSL aims to obtain a model that can generalize well to novel classes with few su
 </body>
 </html>
 
-
+ -->
 ## References
 
 <p id="footnote-1">
