@@ -23,6 +23,18 @@ Regarding the inference setup, there are two types of approaches: inductive and 
 
 There are few works to tackle this problem in video domain. However, most of them are focused only on better exploiting visual or temporal information from videos [3, 19, 26, 42, 44, 45, 47, 48]. Although tackling important aspects in video data modeling, none of the previous works offer solutions to the semantic gap between the few-shot samples and the nuanced and complex concepts needed for video representation learning. We aim to bridge this gap by using textual descriptions as privileged information to contextualize the video feature encoder in conjunction with a classification approach based on class prototypes acting under a transductive inference scheme.
 
+## Our approach
+
+### Problem Definition
+
+### TNT Model
+
+#### Task-Conditioned Video Encoder
+
+#### Task Conditioner
+
+#### Task-Conditioned Transductive Classifier
+
 
 ## References
 
