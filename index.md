@@ -45,6 +45,43 @@ FSL aims to obtain a model that can generalize well to novel classes with few su
 
 ### Results
 
+
+<html>
+  <head>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['bar']});
+      google.charts.setOnLoadCallback(drawChart);
+
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+          ['Task', 'TSN++', 'CMN++', 'TRN++', 'TRN++', 'TAM', 'TSN++ Transd', 'TNT'],
+          ['EK-92 (1-Shot)', 39.10, 0, 0, 0, 0, 42.33, 46.13],
+          ['EK-92 (5-Shot)', 52.30, 0, 0, 0, 0, 52.66, 59.00],
+          ['SS-100 (1-Shot)', 33.60, 34.40, 38.60, 42.80, 39.28, 50.44],
+          ['SS-100 (5-Shot)', 43.00, 43.80, 48.90, 52.30, 52.63, 59.04]
+        ]);
+
+        var options = {
+          chart: {
+            title: 'Company Performance',
+            subtitle: 'Sales, Expenses, and Profit: 2014-2017',
+          }
+        };
+
+        var chart = new google.charts.Bar(document.getElementById('columnchart_material'));
+
+        chart.draw(data, google.charts.Bar.convertOptions(options));
+      }
+    </script>
+  </head>
+  <body>
+    <div id="columnchart_material" style="width: 800px; height: 500px;"></div>
+  </body>
+</html>
+
+
+
 <html>
 <head>
   <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
@@ -86,7 +123,7 @@ FSL aims to obtain a model that can generalize well to novel classes with few su
         height: 500,
         axes: {
           x: {
-            0: {side: 'top'}
+            0: {side: 'bottom'}
           }
         }
       };
