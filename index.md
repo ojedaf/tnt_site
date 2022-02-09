@@ -25,6 +25,8 @@ There are few works to tackle this problem in video domain. However, most of the
 
 ## Our approach
 
+FSL aims to obtain a model that can generalize well to novel classes with few support instances. Therefore, we follow the standard FSL setting [33, 39], wherein a trained model fθ is evaluated on a significant number of N−way K−shot tasks sampled from a meta-test set Dtest. These tasks consist of N novel categories, from which K samples are sampled to form support set S, where K is a small integer, typically, 1 or 5. The support set S is used as a proxy to classify the B unlabeled instances from the query set Q. The parameters θ of the model f are trained on a meta-training set Dtrain, by applying the episodic training strategy [39]. This is, N−way K−shot classification tasks are simulated by sampling from Dtrain during meta-training. Q is sampled from the same N categories in such a way that the samples in Q are non-overlapping with S.
+
 ### Problem Definition
 
 ### TNT Model
