@@ -68,8 +68,8 @@ FSL aims to obtain a model that can generalize well to novel classes with few su
         var options = {
           width: 800,
           chart: {
-            title: 'Sensitivity analysis to the number of query set samples.',
-            subtitle: 'Model performance on SS-100 in the 5-way, 5-shot task for different B size',
+            title: 'Model Performance',
+            subtitle: 'Acc on four challenging video benchmark. EK: EK-92, SS: SS-100, UCF: MetaUCF-101, Kin: Kinetics-100',
           }
         };
 
