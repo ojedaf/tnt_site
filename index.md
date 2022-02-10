@@ -139,6 +139,18 @@ FSL aims to obtain a model that can generalize well to novel classes with few su
 </body>
 </html>
 
+<div class="container">
+	   <div class="column">
+	     <img src="http://i.stack.imgur.com/SBv4T.gif" alt="this slowpoke moves"  width="250" />
+	   </div>
+	   <div class="column">
+	     <img src="http://i.stack.imgur.com/SBv4T.gif" alt="this slowpoke moves"  width="250" />
+	   </div>
+	   <div class="column">
+	     <img src="http://i.stack.imgur.com/SBv4T.gif" alt="this slowpoke moves"  width="250" />
+	   </div>
+</div>
+
 
 ## References
 
