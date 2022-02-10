@@ -116,8 +116,8 @@ FSL aims to obtain a model that can generalize well to novel classes with few su
 
       var options = {
         chart: {
-          title: 'Box Office Earnings in First Two Weeks of Opening',
-          subtitle: 'in millions of dollars (USD)'
+          title: 'Sensitivity analysis to the number of query set samples.',
+          subtitle: 'Model performance on SS-100 in the 5-way, 5-shot task for different B size'
         },
         width: 900,
         height: 500,
