@@ -161,15 +161,20 @@ FSL aims to obtain a model that can generalize well to novel classes with few su
 </head>  
 <body>
     <text style="cursor: default; user-select: none; -webkit-font-smoothing: antialiased; font-family: Roboto; font-size: 16px;" fill="#757575"> Visualization of Class Activation Maps </text>
+	<br>
+	<text style="cursor: default; user-select: none; -webkit-font-smoothing: antialiased; font-family: Roboto; font-size: 14px;" fill="#BDBDBD"> <strong>Textual action description:</strong> pouring water out of bottle  <br><strong>Action label:</strong> pouring something out of something</text>
 	<div class="container">
 	   <div class="column">
-	     <img src="/tnt_site/imgs/Imagen1.gif" alt="this slowpoke moves"  width="250" />
+        <h3 style="cursor: default; user-select: none; -webkit-font-smoothing: antialiased; font-family: Roboto; font-size: 14px; text-align: center; color: #606c71; font-weight: bold;">Video</h3>                                                                            
+	     <img src="/tnt_site/imgs/Imagen1.gif" alt="this slowpoke moves" width="250">
 	   </div>
 	   <div class="column">
-	     <img src="/tnt_site/imgs/Imagen2.gif" alt="this slowpoke moves"  width="250" />
+    <h3 style="cursor: default; user-select: none; -webkit-font-smoothing: antialiased; font-family: Roboto; font-size: 14px; text-align: center; color: #606c71; font-weight: bold;">w/ Film Layer</h3>
+	     <img src="/tnt_site/imgs/Imagen2.gif" alt="this slowpoke moves" width="250">
 	   </div>
 	   <div class="column">
-	     <img src="/tnt_site/imgs/Imagen3.gif" alt="this slowpoke moves"  width="250" />
+    <h3 style="cursor: default; user-select: none; -webkit-font-smoothing: antialiased; font-family: Roboto; font-size: 14px; text-align: center; color: #606c71; font-weight: bold;">w/o Film Layer</h3>
+	     <img src="/tnt_site/imgs/Imagen3.gif" alt="this slowpoke moves" width="250">
 	   </div>
 	</div>
 </body>
