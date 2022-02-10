@@ -139,17 +139,53 @@ FSL aims to obtain a model that can generalize well to novel classes with few su
 </body>
 </html>
 
-<div class="container">
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HTML</title>
+<style>
+	
+	.column {
+	  flex: 30%;
+	  padding: 5px;
+	}
+	img {
+	  width: 100%;
+	}
+	.container {
+	   display: flex;
+	}
+
+	
+</style>
+</head>  
+<body>
+    <h2> Place image side by side</h2>
+	<div class="container">
 	   <div class="column">
-	     <img src="/tnt_site/imgs/imagen1.gif" alt="this slowpoke moves"  width="250" />
+	     <img src="/tnt_site/imgs/Imagen1.gif" alt="this slowpoke moves"  width="250" />
 	   </div>
 	   <div class="column">
-	     <img src="/tnt_site/imgs/imagen2.gif" alt="this slowpoke moves"  width="250" />
+	     <img src="/tnt_site/imgs/Imagen2.gif" alt="this slowpoke moves"  width="250" />
 	   </div>
 	   <div class="column">
-	     <img src="/tnt_site/imgs/imagen3.gif" alt="this slowpoke moves"  width="250" />
+	     <img src="/tnt_site/imgs/Imagen3.gif" alt="this slowpoke moves"  width="250" />
 	   </div>
-</div>
+	</div>
+</body>
+</html> 
+
+<!-- <div class="container">
+	   <div class="column">
+	     <img src="/tnt_site/imgs/Imagen1.gif" alt="this slowpoke moves"  width="250" />
+	   </div>
+	   <div class="column">
+	     <img src="/tnt_site/imgs/Imagen2.gif" alt="this slowpoke moves"  width="250" />
+	   </div>
+	   <div class="column">
+	     <img src="/tnt_site/imgs/Imagen3.gif" alt="this slowpoke moves"  width="250" />
+	   </div>
+</div> -->
 
 
 ## References
