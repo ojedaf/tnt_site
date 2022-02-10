@@ -160,7 +160,7 @@ FSL aims to obtain a model that can generalize well to novel classes with few su
 </style>
 </head>  
 <body>
-    <h2> Place image side by side</h2>
+    <text style="cursor: default; user-select: none; -webkit-font-smoothing: antialiased; font-family: Roboto; font-size: 16px;" fill="#757575"> Visualization of Class Activation Maps </text>
 	<div class="container">
 	   <div class="column">
 	     <img src="/tnt_site/imgs/Imagen1.gif" alt="this slowpoke moves"  width="250" />
