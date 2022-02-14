@@ -47,7 +47,7 @@ The Task Conditioner Ψ is an essential part of our approach that provides high 
 
 ![Task Conditioner Module](/tnt_site/imgs/encoder_text.png)
 
-This module generates the conditioning signals: (1) the task embedding <b>e<b><sub><i>T</i></sub> to tune the Task-Conditioned Video Encoder <i>g</i>, and (2) the semantic class embedding <b>E</b><sup><i>T</i></sup><sub>class</sub> used to tune the Task-Conditioned Transductive Classifier, given the textual action description x in the support set S. Using RoBERTa, we compute the sample-level text embedding E of each x. These text representations are projected first through linear layer and average-pooled along the number of shots K, resulting in the class embedding. Additionally, E is linearly projected a second time to obtain the task embedding.
+This module generates the conditioning signals: (1) the task embedding <b>e</b><sup><i>T</i></sup> to tune the Task-Conditioned Video Encoder <i>g</i>, and (2) the semantic class embedding <b>E</b><sup><i>T</i></sup><sub>class</sub> used to tune the Task-Conditioned Transductive Classifier, given the textual action description x in the support set <i>S</i>. Using RoBERTa, we compute the sample-level text embedding <b>E</b> of each <i>x</i>. These text representations are projected first through linear layer and average pooled along the number of shots <i>K</i>, resulting in the class embedding. Additionally, <b>E</b> is linearly projected a second time to obtain the task embedding.
 
 ##### FiLM Generator
 
