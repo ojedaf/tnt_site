@@ -41,9 +41,21 @@ This module g transforms the lower-level visual information of each video v into
 
 #### Task Conditioner
 
+The Task Conditioner Ψ is an essential part of our approach that provides high adaptability to our model. Specifically, it computes conditioning signals that modulate the Task-Conditioned Video Encoder g and the Task-Conditioned Transductive Classifier h based on the textual action descriptions of a set of support instances S. Furthermore, the Task Conditioner subsumes two components:
+
+##### Task Encoder 
+
 ![Task Conditioner Module](/tnt_site/imgs/encoder_text.png)
 
+This module generates the conditioning signals: (1) the task embedding eT to tune the Task-Conditioned Video Encoder g, and (2) the semantic class embedding ET class used to tune the Task-Conditioned Transductive Classifier, given the textual action description x in the support set S. Using RoBERTa, we compute the sample-level text embedding E of each x. These text representations are projected first through linear layer and average-pooled along the number of shots K, resulting in the class embedding. Additionally, E is linearly projected a second time to obtain the task embedding.
+
+##### FiLM Generator
+
+It generates the set of affine parameters γi,βi for every stage i of g to effectively modulate our Task-Conditioned Video Encoder given the task embedding eT. In practice, we tune the MLP modules and the FiLM generator parameters in a subsequent training stage after fixing g. 
+
 #### Task-Conditioned Transductive Classifier
+
+This module h follows a metric learning approach to classify the unlabeled samples of Q by matching them to the nearest class prototype. To obtain the class prototypes, a straightforward approach is to compute a class-wise average by considering the K-examples in the support set S [1, 4, 33]. However, due to the data scarcity, these prototypes are usually biased. To alleviate this problem, we use a transductive classifier that leverages the unlabeled samples to improve the class prototypes based on the semantic class embedding ET class.
 
 ![Task-Conditioned Transductive Classifier](/tnt_site/imgs/dynamic_module.png)
 
