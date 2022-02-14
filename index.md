@@ -51,11 +51,11 @@ This module generates the conditioning signals: (1) the task embedding <b>e</b><
 
 ##### FiLM Generator
 
-It generates the set of affine parameters γi,βi for every stage i of g to effectively modulate our Task-Conditioned Video Encoder given the task embedding eT. In practice, we tune the MLP modules and the FiLM generator parameters in a subsequent training stage after fixing g. 
+It generates the set of affine parameters <i>γ<sub>i</sub></i>, <i>β<sub>i</sub></i> for every stage i of <i>g</i> to effectively modulate our Task-Conditioned Video Encoder given the task embedding <b>e</b><sup><i>T</i></sup>. In practice, we tune the MLP modules and the FiLM generator parameters in a subsequent training stage after fixing <i>g</i>. 
 
 #### Task-Conditioned Transductive Classifier
 
-This module h follows a metric learning approach to classify the unlabeled samples of Q by matching them to the nearest class prototype. To obtain the class prototypes, a straightforward approach is to compute a class-wise average by considering the K-examples in the support set S [1, 4, 33]. However, due to the data scarcity, these prototypes are usually biased. To alleviate this problem, we use a transductive classifier that leverages the unlabeled samples to improve the class prototypes based on the semantic class embedding ET class.
+This module <i>h</i> follows a metric learning approach to classify the unlabeled samples of <i>Q</i> by matching them to the nearest class prototype. To obtain the class prototypes, a straightforward approach is to compute a class-wise average by considering the <i>K</i>-examples in the support set <i>S</i> [1, 4, 33]. However, due to the data scarcity, these prototypes are usually biased. To alleviate this problem, we use a transductive classifier that leverages the unlabeled samples to improve the class prototypes based on the semantic class embedding <b>E</b><sup><i>T</i></sup><sub>class</sub>.
 
 ![Task-Conditioned Transductive Classifier](/tnt_site/imgs/dynamic_module.png)
 
