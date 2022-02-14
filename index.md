@@ -41,13 +41,13 @@ This module <i>g</i> transforms the lower-level visual information of each video
 
 #### Task Conditioner
 
-The Task Conditioner Ψ is an essential part of our approach that provides high adaptability to our model. Specifically, it computes conditioning signals that modulate the Task-Conditioned Video Encoder g and the Task-Conditioned Transductive Classifier h based on the textual action descriptions of a set of support instances S. Furthermore, the Task Conditioner subsumes two components:
+The Task Conditioner Ψ is an essential part of our approach that provides high adaptability to our model. Specifically, it computes conditioning signals that modulate the Task-Conditioned Video Encoder <i>g</i> and the Task-Conditioned Transductive Classifier <i>h</i> based on the textual action descriptions of a set of support instances <i>S</i>. Furthermore, the Task Conditioner subsumes two components:
 
 ##### Task Encoder 
 
 ![Task Conditioner Module](/tnt_site/imgs/encoder_text.png)
 
-This module generates the conditioning signals: (1) the task embedding eT to tune the Task-Conditioned Video Encoder g, and (2) the semantic class embedding ET class used to tune the Task-Conditioned Transductive Classifier, given the textual action description x in the support set S. Using RoBERTa, we compute the sample-level text embedding E of each x. These text representations are projected first through linear layer and average-pooled along the number of shots K, resulting in the class embedding. Additionally, E is linearly projected a second time to obtain the task embedding.
+This module generates the conditioning signals: (1) the task embedding <b>e<b><sub><i>T</i></sub> to tune the Task-Conditioned Video Encoder <i>g</i>, and (2) the semantic class embedding <b>E</b><sup><i>T</i></sup><sub>class</sub> used to tune the Task-Conditioned Transductive Classifier, given the textual action description x in the support set S. Using RoBERTa, we compute the sample-level text embedding E of each x. These text representations are projected first through linear layer and average-pooled along the number of shots K, resulting in the class embedding. Additionally, E is linearly projected a second time to obtain the task embedding.
 
 ##### FiLM Generator
 
