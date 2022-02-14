@@ -31,6 +31,9 @@ FSL aims to obtain a model that can generalize well to novel classes with few su
 
 ### TNT Model
 
+We strive for action classification in videos within a low-data setting by means of (1) the rich semantic information of textual action descriptions and (2) exploiting the unlabeled samples at test time. We accomplish this task with our Text-Conditioned Networks with Transductive Inference (TNT). Our overall model f is a text-conditioned neural network designed to be flexible and adaptive to novel action labels. Taking inspiration from [1, 32], TNT is composed by three modules: (1) Task-Conditioned Video Encoder g;
+(2) Task Conditioner Ψ; and (3) Task-Conditioned Transductive Classifier h.
+
 ![Our FSL Model](/tnt_site/imgs/full_model_v.png)
 
 #### Task-Conditioned Video Encoder
