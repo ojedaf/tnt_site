@@ -61,7 +61,7 @@ This module <i>h</i> follows a metric learning approach to classify the unlabele
 
 ### Results
 
-We compare the performance of our full TNT model against three state-of-the-art methods for few-shot video classification, namely TAM, CMN and ARN [50]. Additionally, we compare our method against other baseline methods that are popular in the literature about FSL: Matching Networks, MAML, and TSN/TRN++ [4]. To make the comparison fairer, we propose a transductive baseline named TSN++ transductive. We achieve state-of-the-art-results in 7 out of 8 standard benchmark metrics across the four tested datasets. Notably, our model achieves outstanding results in both families of datasets: (1) those with rich and detailed textual descriptions of actions per video: Epic-Kitchens [5], Something-SomethingV2 [11], and (2) those with short class-level descriptions: UCF-101 [35] and Kinetics [16]. Likewise, our model exceeds the TSN++ transductive, which shows the relevance of using the textual descriptions to modulate the network and make a transductive inference.
+We compare the performance of our full TNT model against three state-of-the-art methods for few-shot video classification, namely TAM, CMN and ARN. Additionally, we compare our method against other baseline methods that are popular in the literature about FSL: Matching Networks, MAML, and TSN/TRN++. To make the comparison fairer, we propose a transductive baseline named TSN++ transductive. We achieve state-of-the-art-results in 7 out of 8 standard benchmark metrics across the four tested datasets. Notably, our model achieves outstanding results in both families of datasets: (1) those with rich and detailed textual descriptions of actions per video: Epic-Kitchens, Something-Something V2, and (2) those with short class-level descriptions: UCF-101 and Kinetics. Likewise, our model exceeds the TSN++ transductive, which shows the relevance of using the textual descriptions to modulate the network and make a transductive inference.
 
 <html>
   <head>
@@ -102,7 +102,7 @@ We compare the performance of our full TNT model against three state-of-the-art 
   </body>
 </html>
 
-We evaluate our model trained on SS-100 in the 5-way, 5-shot task with B = 50, increasing the value of B from 5 to 100. Model performance increases until the number of query samples <i>B = 50</i> after which it remains almost constant. We hypothesize that this is due to a saturation point on the amount of extra information that can be extracted from query samples.
+We evaluate our model trained on SS-100 in the 5-way, 5-shot task with <i>B = 50</i>, increasing the value of <i>B</i> from 5 to 100. Model performance increases until the number of query samples <i>B = 50</i> after which it remains almost constant. We hypothesize that this is due to a saturation point on the amount of extra information that can be extracted from query samples.
 
 <html>
 <head>
