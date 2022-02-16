@@ -221,6 +221,11 @@ We also conduct qualitative evaluations to demonstrate how our model works and t
       <a href="#footnote-1-ref" title="return to text">&#8617;</a> 
 </p>
 
+<p id="footnote-22">
+   1. Kaidi Cao, Jingwei Ji, Zhangjie Cao, Chien-Yi Chang, and Juan Carlos Niebles. <a href="https://openaccess.thecvf.com/content_CVPR_2020/papers/Cao_Few-Shot_Video_Classification_via_Temporal_Alignment_CVPR_2020_paper.pdf" title="link to footnote">Few-shot video classification via temporal alignment</a>. In IEEE Conf. Comput. Vis. Pattern Recog., June 2020.
+      <a href="#footnote-22-ref" title="return to text">&#8617;</a> 
+</p>
+
 <p id="footnote-2">
    2. Chelsea Finn, Pieter Abbeel, and Sergey Levine. <a href="http://proceedings.mlr.press/v70/finn17a.html" title="link to footnote">Model-agnostic meta-learning for fast adaptation of deep networks</a>. volume 70 of Proceedings of Machine Learning Research, pages 1126–1135, International Convention Centre, Sydney, Australia, 06–11 Aug 2017. PMLR.
       <a href="#footnote-2-ref" title="return to text">&#8617;</a> 
@@ -246,9 +251,19 @@ We also conduct qualitative evaluations to demonstrate how our model works and t
       <a href="#footnote-6-ref" title="return to text">&#8617;</a> 
 </p>
 
+<p id="footnote-19">
+   7. Jongmin Kim, Taesup Kim, Sungwoong Kim, and Chang D. Yoo. <a href="https://openaccess.thecvf.com/content_CVPR_2019/papers/Kim_Edge-Labeling_Graph_Neural_Network_for_Few-Shot_Learning_CVPR_2019_paper.pdf" title="link to footnote">Edge-labeling graph neural network for few-shot learning</a>. 2019.
+      <a href="#footnote-19-ref" title="return to text">&#8617;</a> 
+</p>
+
 <p id="footnote-7">
    7. Gregory Koch. <a href="https://www.cs.cmu.edu/~rsalakhu/papers/oneshot1.pdf" title="link to footnote">Siamese neural networks for one-shot image recognition</a>. In Int. Conf. Machine learning, 2015.
       <a href="#footnote-7-ref" title="return to text">&#8617;</a> 
+</p>
+
+<p id="footnote-23">
+   7. Sai Kumar Dwivedi, Vikram Gupta, Rahul Mitra, Shuaib Ahmed, and Arjun Jain. <a href="https://openaccess.thecvf.com/content_ICCVW_2019/papers/MDALC/Dwivedi_ProtoGAN_Towards_Few_Shot_Learning_for_Action_Recognition_ICCVW_2019_paper.pdf" title="link to footnote">Protogan: Towards few shot learning for action recognition</a>. In Int. Conf. Comput. Vis. Worksh., pages 0–0, 2019.
+      <a href="#footnote-23-ref" title="return to text">&#8617;</a> 
 </p>
 
 <p id="footnote-8">
@@ -256,9 +271,24 @@ We also conduct qualitative evaluations to demonstrate how our model works and t
       <a href="#footnote-8-ref" title="return to text">&#8617;</a> 
 </p>
 
+<p id="footnote-20">
+   8. Jinlu Liu, Liang Song, and Yongqiang Qin. <a href="https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123460715.pdf" title="link to footnote">Prototype rectification for few-shot learning</a>. In Eur. Conf. Comput. Vis., August 2020.
+      <a href="#footnote-20-ref" title="return to text">&#8617;</a> 
+</p>
+
+<p id="footnote-21">
+   8. Yanbin Liu, Juho Lee, Minseop Park, Saehoon Kim, Eunho Yang, Sungju Hwang, and Yi Yang. <a href="https://arxiv.org/abs/1805.10002" title="link to footnote">Learning to propagate labels: Transductive propagation network for few-shot learning</a>. In Int. Conf. Learn. Represent., 2019.
+      <a href="#footnote-21-ref" title="return to text">&#8617;</a> 
+</p>
+
 <p id="footnote-9">
    9. Gary Lupyan and Benjamin Bergen. <a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/" title="link to footnote">How language programs the mind</a>. volume 70 of Topics in Cognitive Science, 8(2):408–424, 2016. doi: https://doi.org/10.1111/tops.
       <a href="#footnote-9-ref" title="return to text">&#8617;</a> 
+</p>
+
+<p id="footnote-24">
+   9. Ashish Mishra, Vinay Kumar Verma, M Shiva Krishna Reddy, Arulkumar S, Piyush Rai, and Anurag Mittal. <a href="https://arxiv.org/abs/1801.09086" title="link to footnote">A generative approach to zero-shot and few-shot action recognition</a>. In 2018 IEEE Winter Conference on Applications of Computer Vision, pages 372–380, Los Alamitos, CA, USA, mar 2018. IEEE Computer Society. doi: 10.1109/WACV.2018.00047.
+      <a href="#footnote-24-ref" title="return to text">&#8617;</a> 
 </p>
 
 <p id="footnote-10">
@@ -305,6 +335,31 @@ networks for one shot learning</a>. In Adv. Neural Inform. Process. Syst., pages
 <p id="footnote-18">
    18. Yaqing Wang, Quanming Yao, James T. Kwok, and Lionel M. Ni. <a href="https://dl.acm.org/doi/10.1145/3386252" title="link to footnote">Generalizing from a few examples: A survey on few-shot learning</a>. ACM Comput. Surv., 53(3), June 2020. ISSN 0360-0300. doi: 10.1145/3386252.
       <a href="#footnote-18-ref" title="return to text">&#8617;</a> 
+</p>
+
+<p id="footnote-25">
+   18. Yongqin Xian, Bruno Korbar, M. Douze, B. Schiele, Zeynep Akata, and L. Torresani. <a href="https://arxiv.org/abs/2007.04755" title="link to footnote">Generalized many-way few-shot video classification</a>. In Eur. Conf. Comput. Vis. Worksh., 2020.
+      <a href="#footnote-25-ref" title="return to text">&#8617;</a> 
+</p>
+
+<p id="footnote-26">
+   18. Baohan Xu, Hao Ye, Yingbin Zheng, Heng Wang, Tianyu Luwang, and Yu-Gang Jiang. <a href="https://dl.acm.org/doi/10.1145/3206025.3206028" title="link to footnote">Dense dilated network for few shot action recognition</a>. ICMR18, page 379–387, New York, NY, USA, 2018. Association for Computing Machinery. ISBN 9781450350464. doi: 10.1145/3206025.3206028.
+      <a href="#footnote-26-ref" title="return to text">&#8617;</a> 
+</p>
+
+<p id="footnote-27">
+   18. Hongguang Zhang, Li Zhang, Xiaojuan Qi, Hongdong Li, Philip H. S. Torr, and Piotr Koniusz. <a href="https://arxiv.org/abs/2001.03905" title="link to footnote">Few-shot action recognition with permutation-invariant attention</a>. In Eur. Conf. Comput. Vis., 2020.
+      <a href="#footnote-27-ref" title="return to text">&#8617;</a> 
+</p>
+
+<p id="footnote-28">
+   18. Linchao Zhu and Yi Yang. <a href="https://openaccess.thecvf.com/content_ECCV_2018/html/Linchao_Zhu_Compound_Memory_Networks_ECCV_2018_paper.html" title="link to footnote">Compound memory networks for few-shot video classification</a>. In Eur. Conf. Comput. Vis., September 2018. doi: 10.1007/978-3-030-01234-2_46.
+      <a href="#footnote-28-ref" title="return to text">&#8617;</a> 
+</p>
+
+<p id="footnote-29">
+   18. Xiatian Zhu, Antoine Toisoul, Juan-Manuel Perez-Rua, Li Zhang, Brais Martinez, and Tao Xiang. <a href="https://arxiv.org/abs/2101.08085" title="link to footnote">Few-shot action recognition with prototype-centered attentive learning</a>. arXiv preprint arXiv:2101.08085, 2021.
+      <a href="#footnote-29-ref" title="return to text">&#8617;</a> 
 </p>
 
 
